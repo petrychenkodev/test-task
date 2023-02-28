@@ -46,7 +46,7 @@ export default {
     };
   },
   mounted() {
-    fetch("http://demo7919674.mockable.io")
+    fetch("https://demo7919674.mockable.io")
       .then((response) => response.json())
       .then((data) => (this.presets = data));
   },
